@@ -3,7 +3,7 @@
 from typing import Any
 
 import yaml
-from pydantic import BaseModel
+from pydantic import BaseModel #using pydantic to validate datatypes
 
 
 class ProjectConfig(BaseModel):
